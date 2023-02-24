@@ -1,8 +1,8 @@
 using EmployeeDepartmentAPI.Data;
 using EmployeeDepartmentAPI.Repository;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerUI;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
